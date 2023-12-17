@@ -6,7 +6,7 @@ import HomePage from './components/Pages/HomePage/HomePage';
 import CreateNotePage from './components/Pages/CreateNotePage/CreateNotePage';
 import ViewNotePage from './components/Pages/ViewNotePage/ViewNotePage';
 import withParams from './hocs/withParams';
-const { get, post, del } = initFetch('http://localhost:7777/');
+const { get, post, del } = initFetch('https://dimafdr-crud-posts-backend.onrender.com/');
 const ViewNotePageWithParams = withParams(ViewNotePage);
 
 class App extends React.Component {

@@ -2,7 +2,7 @@
   "name": "ra-hw-9.2-crud-posts-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://localhost:7777/",
+  "homepage": "https://dimafdr-crud-posts-backend.onrender.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
